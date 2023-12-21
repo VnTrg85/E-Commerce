@@ -1,0 +1,30 @@
+.description-box {
+	margin: 120px 125px 90px;
+}
+.description-box-navagator {
+	display: flex;
+}
+.description-nav-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 600;
+	width: 150px;
+	height: 50px;
+	border: 1px solid #d0d0d0;
+	border-radius: 2px;
+}
+
+.description-nav-box.fade {
+	background: #fbfbfb;
+	color: #555;
+	opacity: 0.7;
+}
+.description-box-description {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #d0d0d0;
+	gap: 10px;
+	padding: 25px;
+}
