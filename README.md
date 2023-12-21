@@ -13,5 +13,4 @@ React - scss - html
 
 # Product detail page
 
-
-![Uploading Screenshot 2023-12-21 at 21.45.41.png…]()
+<img width="1440" alt="Screenshot 2023-12-21 at 21 46 33" src="https://github.com/VnTrg85/E-Commerce/assets/118825561/d7c01859-a893-4f40-9c11-bac73312d2fd">
