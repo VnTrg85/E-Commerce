@@ -48,3 +48,36 @@
 	font-size: 14px;
 	border-radius: 80px;
 }
+
+@media (max-width: 800px) {
+	.news-letter {
+		height: 50vh;
+	}
+	.news-letter h1 {
+		font-size: 25px;
+	}
+	.news-letter p {
+		font-size: 15px;
+		margin-bottom: 60px;
+	}
+	.news-letter div {
+		height: 40px;
+	}
+}
+
+@media (max-width: 500px) {
+	.news-letter {
+		height: 35vh;
+	}
+	.news-letter h1 {
+		font-size: 15px;
+	}
+	.news-letter p {
+		font-size: 12px;
+		margin-bottom: 30px;
+	}
+	.news-letter div {
+		width: 350px;
+		height: 35px;
+	}
+}

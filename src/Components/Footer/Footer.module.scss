@@ -30,6 +30,7 @@
 
 .footer-social-icons {
 	display: flex;
+	justify-content: center;
 	gap: 20px;
 }
 .footer-icons-container {
@@ -55,4 +56,37 @@
 	border-radius: 10px;
 	border: none;
 	background: #c7c7c7;
+}
+
+@media (max-width: 800px) {
+	.footer {
+		gap: 30px;
+	}
+	.footer-logo p {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 500px) {
+	.footer {
+		gap: 30px;
+	}
+	.footer-logo img {
+		width: 20%;
+	}
+	.footer-logo p {
+		font-size: 30px;
+	}
+	.footer-links {
+		gap: 15px;
+		font-size: 12px;
+	}
+	.footer-icons-container {
+		display: flex;
+		justify-content: center;
+		width: 20%;
+	}
+	.footer-icons-container img {
+		width: 80%;
+	}
 }

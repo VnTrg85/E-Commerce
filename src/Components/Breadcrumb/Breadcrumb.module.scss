@@ -10,3 +10,13 @@
 .breadcrumb img {
 	width: 5px;
 }
+
+@media (max-width: 500px) {
+	.breadcrumb {
+		margin-left: 50px;
+		font-size: 10px;
+	}
+	.breadcrumb img {
+		width: 5px;
+	}
+}

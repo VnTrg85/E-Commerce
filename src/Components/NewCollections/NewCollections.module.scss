@@ -25,3 +25,30 @@
 	justify-content: center;
 	gap: 30px;
 }
+
+@media (max-width: 1024px) {
+	.collections {
+		gap: 45px;
+	}
+}
+@media (max-width: 800px) {
+	.collections {
+		gap: 55px;
+	}
+}
+@media (max-width: 500px) {
+	.new-collections {
+		gap: 0px;
+	}
+	.collections {
+		gap: 20px;
+	}
+	.new-collections h1 {
+		font-size: 15px;
+	}
+
+	.new-collections hr {
+		width: 100px;
+		height: 3px;
+	}
+}

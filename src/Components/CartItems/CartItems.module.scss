@@ -100,3 +100,48 @@
 	font-size: 16px;
 	color: #ffff;
 }
+
+@media (max-width: 1024px) {
+	.cartitems-promobox {
+		width: 400px;
+	}
+}
+
+@media (max-width: 800px) {
+	.cartitems-promobox {
+		width: 200px;
+		height: 40px;
+	}
+	.cartitems-promobox input {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.cartitems-promobox button {
+		width: 30%;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 500px) {
+	.cartitems {
+		display: flex;
+		flex-direction: column;
+		margin: 50px 5px;
+	}
+	.cartitems-format-main {
+		font-size: 12px;
+	}
+	.cartitems-down {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+	.cartitems-total {
+		margin-right: 0;
+	}
+	.cartitems-promobox {
+		width: 100%;
+	}
+}

@@ -3,6 +3,7 @@
 	height: 80vh;
 	background: #fce3fe;
 	padding-top: 100px;
+	margin-bottom: 30px;
 }
 .loginsignup-container {
 	width: 580px;
@@ -53,6 +54,7 @@
 	color: #ff4141;
 	font-weight: 600;
 	margin-left: 5px;
+	cursor: pointer;
 }
 .loginsignup-agree {
 	display: flex;
@@ -62,4 +64,14 @@
 	font-weight: 500;
 	color: #5c5c5c;
 	font-size: 12px;
+}
+
+@media (max-width: 500px) {
+	.loginsignup {
+		height: 90vh;
+	}
+	.loginsignup-container {
+		width: 420px;
+		height: 500px;
+	}
 }

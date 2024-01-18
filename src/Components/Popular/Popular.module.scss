@@ -24,3 +24,37 @@
 	display: flex;
 	gap: 30px;
 }
+@media (max-width: 1280px) {
+	.popular {
+		height: 100vh;
+	}
+}
+@media (max-width: 1024px) {
+	.popular {
+		height: 80vh;
+	}
+}
+@media (max-width: 800px) {
+	.popular {
+		height: 60vh;
+	}
+}
+@media (max-width: 500px) {
+	.popular {
+		height: 40vh;
+		gap: 5px;
+	}
+	.popular h1 {
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.popular hr {
+		width: 100px;
+	}
+
+	.popular-items {
+		margin-top: 20px;
+		gap: 20px;
+	}
+}
