@@ -51,7 +51,7 @@ function ProductDisplay(props) {
 					</div>
 				</div>
 				<button
-					onClick={() => {
+					onClick={e => {
 						window.scrollTo(0, 0);
 						addToCart(product.id);
 					}}
